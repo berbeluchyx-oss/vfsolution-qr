@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VF SOLUTION – Katalog i kontakt</title>
+<meta name="theme-color" content="#061a2b">
+<style>
+html,body{margin:0;padding:0;background:#061a2b}
+body{display:flex;justify-content:center;min-height:100vh}
+.page{position:relative;width:min(100%,1024px);line-height:0}
+.page img{display:block;width:100%;height:auto}
+a{position:absolute;display:block;z-index:2}
+.catalog{left:3.2%;top:50.5%;width:30.7%;height:30.4%}
+.contact{left:35.1%;top:50.5%;width:29.8%;height:30.4%}
+.shop{left:66.0%;top:50.5%;width:30.8%;height:30.4%}
+.phone1{left:10%;top:85.0%;width:38%;height:7.0%}
+.phone2{left:52%;top:85.0%;width:38%;height:7.0%}
+.email{left:12%;top:92.0%;width:38%;height:7.0%}
+.web{left:52%;top:92.0%;width:38%;height:7.0%}
+@media(max-width:600px){
+  .catalog,.contact,.shop{top:50.5%;height:30.4%}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<img src="VF-SOLUTION-QR-poster.png" alt="VF SOLUTION – Wspólnie dla nowoczesnej weterynarii">
+<a class="catalog" href="https://vfsolution.pl/pl/p/file/d0a1eb922d92d19459d0696323da257e/katalog-vfsolution.pdf" target="_blank" rel="noopener" aria-label="Pobierz katalog produktów"></a>
+<a class="contact" href="VF-SOLUTION.vcf" download="VF-SOLUTION.vcf" aria-label="Zapisz kontakt"></a>
+<a class="shop" href="https://vfsolution.pl/" aria-label="Przejdź do sklepu"></a>
+<a class="phone1" href="tel:+48459115721" aria-label="Zadzwoń +48 459 115 721"></a>
+<a class="phone2" href="tel:+48459115723" aria-label="Zadzwoń +48 459 115 723"></a>
+<a class="email" href="mailto:biuro@vfsolution.pl" aria-label="Napisz e-mail"></a>
+<a class="web" href="https://vfsolution.pl/" aria-label="Otwórz stronę VF Solution"></a>
+</main>
+</body>
+</html>

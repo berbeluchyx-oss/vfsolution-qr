@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:VF SOLUTION Sp. z o.o.
+ORG:VF SOLUTION Sp. z o.o.
+TEL;TYPE=WORK,VOICE:+48459115721
+TEL;TYPE=WORK,VOICE:+48459115723
+EMAIL;TYPE=WORK:biuro@vfsolution.pl
+URL:https://vfsolution.pl/
+ADR;TYPE=WORK:;;ul. Mazowiecka 5;Czyżew;;18-220;Polska
+NOTE:Oficjalny dystrybutor VÉTALIS w Polsce
+END:VCARD
